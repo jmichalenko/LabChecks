@@ -1,0 +1,7 @@
+check50:
+  checks:
+    foo:
+      - run: ./HelloName
+        stdin: John
+        stdout: Hello, John!
+        exit: 0 # expect program to exit with exitcode 0
