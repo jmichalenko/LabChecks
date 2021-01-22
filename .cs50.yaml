@@ -1,6 +1,0 @@
-check50:
-  checks:
-    hello world:
-      - run: ./hello
-        stdout: Hello, world!
-        exit: 0
