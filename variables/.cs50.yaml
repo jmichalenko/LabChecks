@@ -1,0 +1,11 @@
+check50:
+  checks:
+    HelloName:
+      - run: ./HelloName
+        stdin: 8
+        stdout: 
+        Right now I'm 8 years old.
+        Next year I'll be 9 years old.
+        In 10 years, I'll be 18!
+        In 50 years, I'll be 58! Wow!
+        exit: 0 # expect program to exit with exitcode 0
