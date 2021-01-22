@@ -1,3 +1,7 @@
 check50: 
- checks: checks.py
-
+  files: &check50_files
+    - !exclude "*"
+    - !require hello.c
+  checks: checks.py
+submit50:
+  files: *check50_files
