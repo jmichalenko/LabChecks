@@ -1,2 +1,2 @@
 check50:
-  checks: checks.py
+  checks: HelloName.c
