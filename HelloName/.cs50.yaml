@@ -1,6 +1,6 @@
 check50:
   checks:
-    foo:
+    HelloName:
       - run: ./HelloName
         stdin: John
         stdout: Hello, John!
