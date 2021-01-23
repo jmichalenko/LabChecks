@@ -15,9 +15,5 @@ def compiles():
 @check50.check(compiles)
 def test1():
     """handles an input of John correctly"""
-    out = check50.run("./HelloName").stdin("John").stdout()
-    check_program(out, open("1.txt").read())
-
-def check_program(output, correct):
-    if output == correct:
-        return
+    out = check50.run("./HelloName").stdin("John").stdout(open("1.txt").read())
+    
