@@ -14,10 +14,10 @@ def compiles():
 
 @check50.check(compiles)
 def test1():
-    """handles a height of 1 correctly"""
+    """handles an input of John correctly"""
     out = check50.run("./HelloName").stdin("John").stdout()
-    check_pyramid(out, open("1.txt").read())
+    check_program(out, open("1.txt").read())
 
-def check_pyramid(output, correct):
+def check_program(output, correct):
     if output == correct:
         return
