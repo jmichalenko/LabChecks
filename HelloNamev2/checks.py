@@ -18,3 +18,6 @@ def test1():
     out = check50.run("./HelloName").stdin("John").stdout()
     check_pyramid(out, open("1.txt").read())
 
+def check_pyramid(output, correct):
+    if output == correct:
+        return
