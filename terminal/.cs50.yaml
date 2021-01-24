@@ -1,2 +1,7 @@
+check50: 
+  files: &check50_files
+
+    - !require "*"
+
 submit50:
-  files: "*"
+  files: *check50_files
