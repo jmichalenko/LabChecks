@@ -1,7 +1,7 @@
 check50: 
   files: &check50_files
-
-    - !require ./
+    - !exclude "*"
+    - !require ./bathroom/bathroom_cabinet/bathroom_cabinet.txt
 
 submit50:
   files: *check50_files
