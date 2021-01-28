@@ -1,5 +1,5 @@
 check50: 
   files: &check50_files
-    - !require "*"
+    - !require apt1
 submit50:
   files: *check50_files
