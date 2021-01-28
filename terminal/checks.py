@@ -4,4 +4,4 @@ import check50.c
 @check50.check()
 def exists():
     """apt1 test.txt exists"""
-    check50.exists("apt1/test.txt")
+    check50.exists("apt1/")
