@@ -1,8 +1,6 @@
 check50: 
   files: &check50_files
     - !exclude "*"
-    - !require ./apt1/bathroom/bathroom_cabinet/bathroom_cabinet.txt
-    ./apt1/kitchen/cabinet/cabinet_contents.txt
-  checks: checks.py
+    - !require apt1
 submit50:
   files: *check50_files
