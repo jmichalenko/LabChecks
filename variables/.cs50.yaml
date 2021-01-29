@@ -1,7 +1,7 @@
 check50:
   checks:
     HelloName:
-      - run: ./HelloName
+      - run: ./variables
         stdin: 8
         stdout: 
         Right now I'm 8 years old.
