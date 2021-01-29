@@ -14,7 +14,7 @@ def compiles():
 @check50.check(compiles)
 def eighty():
     """responds to nuber of 80"""
-    check50.run("./while").stdin("80").stdout("Your number can be doubled 2 times before reaching 100!").exit()
+    check50.run("./while").stdin("80").stdout("Your number can be doubled 1 times before reaching 100!").exit()
     
 @check50.check(compiles)
 def four():
