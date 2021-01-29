@@ -1,5 +1,5 @@
 Hello John, here is the data you entered...
-Student ID: 12345678
+Student ID: 123456
 Age: 10
 GPA: 10.1
 The value of pi is 3.1415926535
