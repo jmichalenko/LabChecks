@@ -14,4 +14,4 @@ def compiles():
 @check50.check(compiles)
 def thisIsCS50():
     """CS50 is displayed"""
-    check50.run("./syntax").stdout("This is CS50!").exit()
+    check50.run("./syntax").stdout("This is CS50AP!").exit()
