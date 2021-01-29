@@ -9,3 +9,7 @@ check50:
           In 10 years, I'll be 20!
           In 50 years, I'll be 60! Wow!
         exit: 0
+submit50:
+  files:
+    - !exclude: "*"
+    - !include: variables.c
