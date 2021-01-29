@@ -19,5 +19,5 @@ def exists4():
     check50.exists("apt1/living_room")
 @check50.check()
 def exists5():
-    """apt1/bedroom exists"""
+    """apt1/living_room exists"""
     check50.exists("apt1/bedroom")
