@@ -10,7 +10,7 @@ def exists():
 
 @check50.check(exists)
 def compiles():
-    """datatypes.c compiles"""
+    """operators.c compiles"""
     check50.c.compile("operators.c", lcs50=True)
 
 @check50.check(compiles)
