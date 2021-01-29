@@ -2,16 +2,6 @@ check50:
   files: &check50_files
     - !exclude "*"
     - !require variables.c
-  checks:
-    multiline variables:
-      - run: ./variables
-        stdin: 10
-        stdout: | # expect multiple lines out
-          Right now I'm 10 years old.
-          Next year I'll be 11 years old.
-          In 10 years, I'll be 20!
-          In 50 years, I'll be 60! Wow!
-        exit: 0
-
+  checks: checks.py
 submit50:
   files: *check50_files
