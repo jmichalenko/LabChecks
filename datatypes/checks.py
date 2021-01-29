@@ -7,6 +7,7 @@ def exists():
     """datatypes.c exists"""
     check50.exists("datatypes.c")
     check50.include("1.txt")
+    check50.include("2.txt")
 
 @check50.check(exists)
 def compiles():
