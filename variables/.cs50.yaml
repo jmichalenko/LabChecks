@@ -1,7 +1,11 @@
 check50:
   checks:
-    variables:
+    multiline variables:
       - run: ./variables
-        stdin: 8
-        stdout: Right now I'm 8 years old./n Next year I'll be 9 years old./n In 10 years, I'll be 18!/n In 50 years, I'll be 58! Wow!/n
-        exit: 0 # expect program to exit with exitcode 0
+        stdin: 10
+        stdout: | # expect multiple lines out
+          Right now I'm 10 years old.
+          Next year I'll be 11 years old.
+          In 10 years, I'll be 20!
+          In 50 years, I'll be 60! Wow!
+        exit: 0
