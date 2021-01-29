@@ -1,4 +1,7 @@
-check50:
+check50: 
+  files: &check50_files
+    - !exclude "*"
+    - !require HelloName.c
   checks:
     multiline variables:
       - run: ./variables
@@ -9,7 +12,6 @@ check50:
           In 10 years, I'll be 20!
           In 50 years, I'll be 60! Wow!
         exit: 0
+
 submit50:
-  files:
-    - !exclude: "*"
-    - !include: variables.c
+  files: *check50_files
