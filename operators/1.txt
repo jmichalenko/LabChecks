@@ -1,0 +1,5 @@
+8 plus 3 is 11
+8 times 5 is 40
+8 divided by 4 is 2
+8 mod 4 is 0
+8 divided by 4.0 is really 2.00
