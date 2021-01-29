@@ -17,4 +17,4 @@ def compiles():
 @check50.check(compiles)
 def test1():
     """handles inputs correctly"""
-    out = check50.run("./variables").stdin(open("2.txt").read()).stdout(open("1.txt").read())
+    out = check50.run("./datatypes").stdin(open("2.txt").read()).stdout(open("1.txt").read())
