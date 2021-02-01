@@ -12,17 +12,17 @@ def compiles():
     check50.c.compile("dowhile.c", lcs50=True)
 
 @check50.check(compiles)
-def 2():
+def two():
     """responds to nuber of 2"""
     check50.run("./dowhile").stdin("2").stdout("Thank you for the 2!").exit()
     
 @check50.check(compiles)
-def 10():
+def ten():
     """responds to number of 10"""
     check50.run("./dowhile").stdin("10").stdout("Thank you for the 10!").exit()
     
 @check50.check(compiles)
-def 1():
+def one():
     """responds to number of 1"""
     check50.run("./dowhile").stdin("1").stdout("Thank you for the 1!").exit()
 
