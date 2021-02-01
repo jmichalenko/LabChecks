@@ -4,7 +4,7 @@ import check50.c
 @check50.check()
 def exists():
     """forloop.c exists"""
-    check50.exists("foorloop.c")
+    check50.exists("forloop.c")
 
 @check50.check(exists)
 def compiles():
