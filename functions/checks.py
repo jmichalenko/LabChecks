@@ -21,3 +21,8 @@ def test_reject_negative():
     """rejects a negative input like -1"""
     check50.run("./functions").stdin("-1").reject()
     
+@check50.check(compiles)
+def test_reject_zero():
+    """rejects a zero"""
+    check50.run("./functions").stdin("0").reject()
+    
