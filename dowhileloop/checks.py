@@ -26,17 +26,17 @@ def one():
     """responds to number of 1"""
     check50.run("./dowhile").stdin("1").stdout("Thank you for the 1!").exit()
 @check50.check(compiles)
-def below1():
+def below_one():
     """responds to number of 0"""
     check50.run("./dowhile").stdin("0").reject
     
 @check50.check(compiles)
-def negative():
+def negative_number():
     """responds to negative number"""
     check50.run("./dowhile").stdin("-1").reject
     
 @check50.check(compiles)
-def negative():
+def above_ten():
     """responds to number above 10"""
     check50.run("./dowhile").stdin("11").reject
 
