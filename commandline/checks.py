@@ -18,5 +18,5 @@ def emma():
 
 @check50.check(compiles)
 def blank_rejected():
-    """responds to name Rodrigo"""
+    """responds to missing argument"""
     check50.run("./commandline").stdout("You need to provide the name in the command line.").exit()
