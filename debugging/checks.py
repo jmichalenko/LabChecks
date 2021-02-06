@@ -19,4 +19,5 @@ def test1():
 @check50.check(compiles)
 def test2():
     """rejects non binary number"""
-    out = check50.run("./buggy").stdin("33").stdout("Invalid input. Try again!)
+    out = check50.run("./buggy").stdin("33").stdout("Invalid input. Try again!")
+'"
