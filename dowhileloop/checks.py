@@ -37,6 +37,6 @@ def negative_number():
     
 @check50.check(compiles)
 def above_ten():
-    """responds to number above 10"""
+    """responds to number above 11"""
     check50.run("./dowhile").stdin("11").reject
 
