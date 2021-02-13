@@ -1,0 +1,8 @@
+Name:  John
+Grade:  9
+Student Number:  123
+Average:  90
+Name:  Bill
+Grade:  9
+Student Number:  456
+Average:  95
