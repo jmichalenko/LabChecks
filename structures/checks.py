@@ -4,7 +4,7 @@ import check50.c
 @check50.check()
 def exists():
     """students.c exists"""
-    check50.exists("st.c")
+    check50.exists("students.c")
     check50.include("1.txt")
     check50.include("2.txt")
 
