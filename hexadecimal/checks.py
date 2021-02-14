@@ -14,4 +14,4 @@ def compiles():
 @check50.check(compiles)
 def test1():
     """sorts numbers in array correctly"""
-    out = check50.run("./hexadecimal").stdout("0 1 2 3 4 5 6 7 8 9")
+    out = check50.run("./hexadecimal").stdin("13F").stdout("319")
