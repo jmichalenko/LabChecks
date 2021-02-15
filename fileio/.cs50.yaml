@@ -1,6 +1,6 @@
 check50: 
   files: &check50_files
-    - !require fileio.txt
+    - !require fileio.c
     - !require copy.txt
   checks: checks.py
 submit50:
