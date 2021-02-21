@@ -1,6 +1,6 @@
 check50:
   files: &check50_files
-    - !require output.bmp
+    - !require output
 
 submit50:
   files: *check50_files
