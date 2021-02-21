@@ -1,6 +1,7 @@
 check50:
   files: &check50_files
-    - !require output.bmp
+    - !exclude "*"
+    - !include "*.bmp*
 
 submit50:
   files: *check50_files
