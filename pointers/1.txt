@@ -1,2 +1,2 @@
-john
-John
+s: john
+t: John
