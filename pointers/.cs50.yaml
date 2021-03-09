@@ -1,0 +1,7 @@
+check50: 
+  files: &check50_files
+    - !exclude "*"
+    - !require pointers.c
+  checks: checks.py
+submit50:
+  files: *check50_files
