@@ -15,4 +15,4 @@ def compiles():
 @check50.check(compiles)
 def numbers_add_up_correctly():
     """First line is lower case, second line is uppercase"""
-    out = check50.run("./pointers").stdin(open("john").read()).stdout(open("1.txt").read())
+    out = check50.run("./pointers").stdin("john").stdout(open("1.txt").read())
