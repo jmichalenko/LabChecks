@@ -8,5 +8,5 @@ def exists():
 
 @check50.check(exists)
 def compiles():
-    """monty_hall.c compiles"""
-    check50.c.compile("monty_hall.c", lcs50=True)
+    """monte_hall.c compiles"""
+    check50.c.compile("monte_hall.c", lcs50=True)
