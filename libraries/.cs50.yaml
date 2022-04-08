@@ -1,0 +1,8 @@
+check50: 
+  files: &check50_files
+    - !exclude "*"
+    - !require multiplication.c
+    - !require multiplication.h
+  checks: checks.py
+submit50:
+  files: *check50_files
