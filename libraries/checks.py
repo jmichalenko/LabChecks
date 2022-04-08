@@ -17,4 +17,4 @@ def compiles():
 @check50.check(compiles)
 def test1():
     """handles inputs correctly"""
-    out = check50.run("./multiplication").stdin("3", "4").stdout("The product is: 12")
+    out = check50.run("./multiplication").stdin(open("2.txt").read()).stdout(open("1.txt").read())
